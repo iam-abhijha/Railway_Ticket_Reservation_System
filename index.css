@@ -1,0 +1,296 @@
+body{
+	margin: auto;
+	background-color:lightgrey;
+	font-family: arial;
+
+}
+.navigation{
+	margin:auto;
+	width: 860px;
+	padding: 0px 0px 0px 130px;
+	height: 50px;
+	margin-top: 20px;
+
+}
+
+.navigation ul{
+	padding: 0;
+	list-style: none;;
+}
+.navigation ul li{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right:  10px;
+}
+.navigation ul li a{
+	text-decoration: none;
+	color: darkblue;
+	background:lightpink;
+	border-top: 1px dotted black;
+	border-left:1px dotted black;
+	border-right: 1px dotted black;
+	border-bottom: 1px dotted black;
+	padding: 10px 20px 10px 20px;
+    border-top-right-radius:10px; 
+    border-top-left-radius:10px; 
+     border-bottom-right-radius:10px; 
+    border-bottom-left-radius:10px; 
+    display: block;
+    text-align: right;
+}
+.navigation ul li a:hover{
+	text-decoration: none;
+	color:darkred;
+	background: lightgreen;
+}
+.navigation ul li a#onlink{
+background:grey;
+color: orange;
+border-bottom: 1px solid red;
+}
+
+.navigation ul li a#onlink:hover{
+background:white;
+color: orange;
+}
+
+
+
+.main{
+	margin: auto;
+	width: 860px;
+	padding: 10px;
+	border:1px solid red;
+	
+	background: lightyellow;
+	min-height: 600px;
+}
+
+.booking {
+	margin:0px;
+	padding:0px 100px 0px 0px;
+	border:1px solid black;
+	width: 150px;
+	float: left;
+	height: 630px;
+	background: lightblue;
+	font-size: medium;
+}
+
+.img{
+	
+	width:600px;
+	height: 340px;
+	padding: 0px 0px 10px 0px;
+	float: right;
+}
+
+.imgs{
+	width: 190px;
+	height: 220px;
+	padding: 0px 1px 0px 0px;
+	margin-left: 5px;
+	border:1px solid black;
+}
+.head1{
+	
+ margin-left:  30px;
+   font-family: algerian;
+}
+.head2{
+	
+  margin-left:  60px;
+    font-family: algerian;
+}
+.head3{
+	
+  margin-left:  95px;
+   font-family: algerian;
+}
+.head4{
+	
+  margin-left:  160px;
+   font-family: algerian;
+}
+
+.submit{
+	margin-left: 80px;
+	margin-top: 20px;
+	padding: 0px 50px 0px 50px;
+	font-size:large;
+	background-color:tomato ;
+   border-radius: 20px;
+   text-align: center;
+
+}
+.head{
+  margin: 2px;
+  margin-left: 150px;
+  font-family: algerian;
+}
+.holiday{
+	margin-left: 450px;
+  font-family: algerian;
+}
+
+.fsize{
+	font-family: algerian;
+	font-size: x-large;
+}
+
+
+.hpack{
+	margin: 2px;
+  margin-left: 300px;
+  font-family: algerian;
+}
+.hpimg{
+	margin-top: 10px;
+	border:1px solid black;
+	margin-left: 50px;
+	height: 160px;
+	width: 400px;
+}
+.bookh{
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+	font-size: x-large;
+	background-color:orange;
+	border-radius: 20px;
+}
+.bookd{
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+	padding: 10px 10px 10px 10px;
+	font-size: x-large;
+	background-color:lightblue;
+   border-radius: 20px;
+}
+ table
+     {
+          border: 2px solid blue;
+          width: 800px;
+          margin-left: 30px;
+          
+       
+     
+          
+      }
+     th{
+          border: 1px solid black;
+           
+     background-color: red;
+          font-weight: bold;
+          padding: 10px;
+}
+td{
+          border: 2px solid black;
+           
+  
+          font-weight: bold;
+          padding: 50px;
+}
+
+     
+td:hover{
+    background-color: lightblue;
+}
+tr:hover{
+	background-color: #ff66ff;
+
+}
+.meald{
+width: 600px;
+}
+.order{
+	padding: 10px 10px 10px 10px;
+	width: 200px;
+	background-color:#66ff66;
+	border-radius: 20px;
+}
+.service{
+	padding: 60px 20px 0px 20px;
+	margin-left: 250px;
+	font-family: algerian;
+	
+
+}
+.service1{
+
+	margin-left: 250px;
+	font-family: algerian;
+}
+.service2{
+	border: 2px solid black;
+	width: 600px;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-left: 110px;
+}
+
+
+
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.89;
+
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+
+.form-popup {
+ width: 100%;
+  height:100%;
+  background-color: black;
+  opacity: 0.96;
+  position: fixed;
+
+  left: 0;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  display: none;
+}
+
+
+
+
+
+
+.popup{
+ min-width: 500px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+margin:0px 5px 0px 5px ;
+}
+
+.hide{
+  padding: 10px 50px 10px 50px;
+  background-color: orange;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 80px;: 
+  }
+
+  

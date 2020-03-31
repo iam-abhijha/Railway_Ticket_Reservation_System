@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Railway Ticket Booking</title>
+        <link rel="stylesheet" href="index.css"/>
+        
+    </head>
+<!-- abhinandan-->
+    <body>
+    
+        <div class="main">
+            <h1 class="head">Railway Ticket reservation system</h1>
+          <div class="navigation">
+    		<ul>
+    		<li><a href="index.html" >HOME</a></li>
+    		<li><a href="meal.html">MEALS</a></li>
+    		<li><a href="holiday.html"id="onlink">H PACKAGES</a></li>
+    		<li><a href="service.html">SERVICE</a></li>
+    		<li><a href="contact.html">CONTACT US</a></li>
+    		</ul>
+  <!-- abhinandan-->
+        </div>
+		  <h1 class="hpack">Holiday Packages</h1>
+  <div>
+  	<img class="hpimg" src="img\hpack1.JPG" alt="hpackages"/>
+
+  	<button class="bookd" type="button" onclick="h1DB()">Details</button>
+
+        <div class="form-popup" id="hBook1">
+    <div class="popup">
+    <h1>Travel to GOVINDAM</h1> <br>
+    <h2>3 Days Trip at TIRUPATI</h2> <br>
+    <h1>  Price - ₹3910</h1>
+    <button type="button" class="hide" onclick="h1DC()">Close</button>
+    </div> </div>
+
+     <button class="bookh" type="button" onclick="h1BB()">Book Here</button>
+
+         <div class="form-popup" id="hBook2">
+    <div class="popup"><br>
+    Name <input type="input" name="name"><br> <br>
+    Age &nbsp;<input type="input" name="Age"><br><br>
+    Email <input type="input" name="Email"><br><br>
+    Contact<input type="input" name="Contact"><br>
+
+  <button type="button" class="hide" onclick="orderO()">Book</button>
+   
+    <button type="button" class="hide" onclick="h1BC()">Close</button>
+    <div class="form-popup" id="openO">
+    <div class="popup"><br>
+    <h1>Thanks for Booking</h1><br>
+    <h2>We will Contact you Shortly</h2>
+    <button type="button" class="hide" onclick="orderC()">Close</button>
+    </div> </div>
+      </div> </div>
+
+</div>
+<div>
+<img class="hpimg" src="img\hpack2.JPG" alt="hpackages"/>
+
+  	<button class="bookd" type="button" onclick="h2DB()">Details</button>
+            <div class="form-popup" id="hBook3">
+    <div class="popup">
+    <h1>Travel New Delhi to Amritsar</h1> <br>
+    <h2>2 Days Trip</h2> <br>
+    <h1>  Price - ₹5780</h1>
+    <button type="button" class="hide" onclick="h2DC()">Close</button>
+    </div> </div>
+
+  	<button class="bookh" type="button" onclick="h2BB()">Book Here</button>
+ <div class="form-popup" id="hBook4">
+    <div class="popup"> <br>
+    Name <input type="input" name="name"><br> <br>
+    Age &nbsp;<input type="input" name="Age"><br><br>
+    Email <input type="input" name="Email"><br><br>
+    Contact<input type="input" name="Contact"><br>
+   
+  <button type="button" class="hide" onclick="oO1()">Book</button>
+    <button type="button" class="hide" onclick="h2BC()">Close</button>
+      <div class="form-popup" id="o1">
+    <div class="popup"><br>
+    <h1>Thanks for Booking</h1><br>
+    <h2>We will Contact you Shortly</h2>
+    <button type="button" class="hide" onclick="oC1()">Close</button>
+    </div> </div>
+    </div> </div>
+</div>
+<div>
+  <img class="hpimg" src="img\hpack3.JPG" alt="hpackages"/>
+
+  	<button class="bookd" type="button" onclick="h3DB()">Details</button>
+<div class="form-popup" id="hBook5">
+    <div class="popup">
+    <h1>Travel Chennai to Shirdi</h1> <br>
+    <h2>4 Days Trip at Shirdi</h2> <br>
+    <h1>  Price - ₹3570</h1>
+    <button type="button" class="hide" onclick="h3DC()">Close</button>
+    </div> </div>
+
+  	<button class="bookh" type="button"onclick="h3BB()">Book Here</button>
+     <div class="form-popup" id="hBook6">
+    <div class="popup"> <br>
+    Name <input type="input" name="name"><br> <br>
+    Age &nbsp;<input type="input" name="Age"><br><br>
+    Email <input type="input" name="Email"><br><br>
+    Contact<input type="input" name="Contact"><br>
+   
+  <button type="button" class="hide" onclick="oO2()">Book</button>
+       <button type="button" class="hide" onclick="h3BC()">Close</button>
+   
+<div class="form-popup" id="o2">
+    <div class="popup"><br>
+    <h1>Thanks for Booking</h1><br>
+    <h2>We will Contact you Shortly</h2>
+    <button type="button" class="hide" onclick="oC2()">Close</button>
+    </div> </div>
+    </div> </div>
+</div>
+<div>
+  	<img class="hpimg" src="img/hpack4.JPG" alt="hpackages"/>
+
+  	<button class="bookd" type="button" onclick="h4DB()">Details</button>
+    <div class="form-popup" id="hBook7">
+    <div class="popup">
+  <h1>Travel to Land of Kings</h1> <br>
+    <h2>9 Days Trip at Rajasthan</h2> <br>
+    <h1>  Price - ₹20180</h1>
+    <button type="button" class="hide" onclick="h4DC()">Close</button>
+    </div> </div>
+
+  	<button class="bookh" type="button" onclick="h4BB()">Book Here</button>
+     <div class="form-popup" id="hBook8">
+    <div class="popup"><br>
+    Name <input type="input" name="name"><br> <br>
+    Age &nbsp;<input type="input" name="Age"><br><br>
+    Email <input type="input" name="Email"><br><br>
+    Contact<input type="input" name="Contact"><br>
+   
+  <button type="button" class="hide" onclick="oO3()">Book</button>
+   
+    <button type="button" class="hide" onclick="h4BC()">Close</button>
+    <div class="form-popup" id="o3">
+    <div class="popup"><br>
+    <h1>Thanks for Booking</h1><br>
+    <h2>We will Contact you Shortly</h2>
+    <button type="button" class="hide" onclick="oC3()">Close</button>
+    </div> </div>
+    </div> </div>
+</div>
+<div>
+  	<img class="hpimg" src="img/hpack5.JPG" alt="hpackages"/>
+
+  	<button class="bookd" type="button" onclick="h5DB()">Details</button>
+    <div class="form-popup" id="hBook9">
+    <div class="popup">
+   <h1>Travel in Steam Express</h1> <br>
+    <h2>1 Days Trip at Rewari </h2> <br>
+    <h1>  Price - ₹3402</h1>
+    <button type="button" class="hide" onclick="h5DC()">Close</button>
+    </div> </div>
+  	<button class="bookh" type="button" onclick="h5BB()">Book Here</button>
+    <div class="form-popup" id="hBook10">
+    <div class="popup"><br>
+    Name <input type="input" name="name"><br> <br>
+    Age &nbsp;<input type="input" name="Age"><br><br>
+    Email <input type="input" name="Email"><br><br>
+    Contact<input type="input" name="Contact"><br>
+   
+  <button type="button" class="hide" onclick="oO4()">Book</button>
+   
+    <button type="button" class="hide" onclick="h5BC()">Close</button>
+    <div class="form-popup" id="o4">
+    <div class="popup"><br>
+    <h1>Thanks for Booking</h1><br>
+    <h2>We will Contact you Shortly</h2>
+    <button type="button" class="hide" onclick="oC4()">Close</button>
+    </div> </div>
+    </div> </div>
+</div>
+
+</div>
+ 
+
+ <script src="main.js"></script> 
+    </body>
+</html>
+
+        
+          
+          
+           
+          
+            
+
+            
+       
